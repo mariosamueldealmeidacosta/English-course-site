@@ -90,6 +90,23 @@ header{
 }
 
 /* Here start the block 3 THE SERVICE  */
+.block3Text1{
+    position: relative;
+    top: 10%;
+    /* Para configurar em tela inteira 
+    talvez seja melhor usar top: 50%; 
+    mas quando é metade usamos do jeito q tá
+    aí*/
+    left: 5%;
+    float: left;
+    /* line-height: 300px; */
+    font-family: cursive;
+    color: rgb(37, 157, 204);
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    margin-top: 10%;
+}
 #countriesFlgs{
     width: 450px;
     height: 250px;
@@ -114,10 +131,3 @@ header{
 
 
 
-
-
-
-
-
-
-/* Código q podera ser reutilizado dps */
