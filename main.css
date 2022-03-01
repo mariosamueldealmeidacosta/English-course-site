@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(232, 240, 251); */
+}
+header{
+    background-color: rgb(37, 157, 204);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 40;
+}
+.title{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    color: white;
+    display: inline;
+}
+.nav{
+    float: right;
+}
+.menu{
+    list-style-type: none;
+    float: right;
+    padding-top: 10px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+/* Here start the block1 */
+
+.block1{
+    /* background-color: rgb(232, 240, 251); */
+    margin-top: 80px;
+    height: 300px;
+}
+
+
+.block1Text{
+    position: relative;
+    top: 10%;
+    /* Para configurar em tela inteira 
+    talvez seja melhor usar top: 50%; 
+    mas quando é metade usamos do jeito q tá
+    aí*/
+    left: 10%;
+    float: left;
+    /* line-height: 300px; */
+    font-family: cursive;
+    color: rgb(37, 157, 204);
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+#block1Img1{
+    width: 42%;
+    position: relative;
+    float: right;
+    right: 10%;
+    /* top: 2%; */
+    border-style: solid;
+    border-radius: 20px;
+}
+
+/* Here start the second block in web-page-design */
+
+#block2Img1{
+    margin-top: 8%;
+    margin-left: 8%;
+    border-style: solid;
+    border-radius: 20px;
+} 
+
+.block2Text{
+    position: relative;
+    float: right;
+    /* line-height: 300px; */
+    font-family: cursive;
+    color: rgb(37, 157, 204);
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+    margin-top: 15%;
+}
+
+/* Here start the block 3 THE SERVICE  */
+#countriesFlgs{
+    width: 450px;
+    height: 250px;
+    background-color:rgb(37, 157, 204);
+    margin-top: 5%;
+    float: right;
+    margin-right: 25px;
+    border-radius: 30px;
+}
+
+.flags{
+    width: 130px;
+    height: 97px;
+    border-radius: 20px;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Código q podera ser reutilizado dps */
