@@ -46,7 +46,6 @@ a{
 /* ///////////////////////////////// */
 
 /* Here we deal with links on the page */
-/* unvisited link */
 a {
     color: white;
     text-decoration: none;
@@ -65,19 +64,13 @@ a {
 .block1Text{
     position: relative;
     top: 14%;
-    /* Para configurar em tela inteira 
-    talvez seja melhor usar top: 50%; 
-    mas quando é metade usamos do jeito q tá
-    aí*/
     left: 14%;
     float: left;
     line-height: 50px;
     font-family: cursive;
-    /* color: rgb(37, 157, 204); */
     font-size: 50px;
     text-align: center;
     width: 300px;
-    /* background-color: rgb(37, 157, 204); */
     color: white;
     padding: 25px;
     border-radius: 36px;
@@ -110,7 +103,8 @@ a {
     margin-left: 8%;
     border-style: solid;
     border-radius: 20px;
-    float: left;
+    float: left; 
+    display: inline;
 } 
 
 .block2Text{
@@ -161,6 +155,7 @@ a {
 }
 
 #countriesFlgs{
+    position: relative;
     width: 450px;
     height: 250px;
     background-color:rgb(37, 157, 204);
@@ -344,7 +339,6 @@ a {
 #block7{
     width: 100%;
     height: 100px;
-    /* background-color: magenta; */
 }
 
 .TextofBlock7{

@@ -1,0 +1,188 @@
+@media only screen and (max-width: 1310px) {
+    #daviNunes{
+        display: none;
+    }
+    #anaRamos{
+        display: none;
+    }
+    .depoiment{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1275px){
+    .block1Text{
+        left: 10%;
+    }
+    #block2Img1{
+        margin-left: 5%;
+    }
+    .block3Text1{
+        left: 10%;
+    }
+    .TextofBlock7{
+        margin-left: 12%;
+    }
+}
+
+@media only screen and (max-width: 1190px){
+    .linkOfBlock7{
+        margin-right: 50%;
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (max-width: 1175px){
+    .block1Text{
+        left: 6%;
+    }
+    #block1Img1{
+        right: 5%;
+    }
+    #block2Img1{
+        margin-left: 5%;
+    }
+    .block2Text{
+        right: 10%;
+    }
+    .block3Text1{
+        left: 6%;
+    }
+    #countriesFlgs{
+        margin-right: 8%;
+    }
+}
+
+@media only screen and (max-width: 1014px){
+    #block1Img1{
+        top: 3%;
+        right: 5%;
+    }
+    .block2Text{
+        right: 5%;
+    }
+    .block3Text1{
+        left: 4%;
+    }
+    #countriesFlgs{
+        margin-right: 3%;
+    }
+    #teachers {
+        height: 500px;
+        width: 760px;
+    }
+    .teacher1, .teacher2, .teacher3 {
+        height: 450px;
+        width: 228px;
+    }
+}
+
+@media only screen and (max-width: 1014px){
+    #block2Img1{
+        /* display: none; */
+        margin-left: 0%;
+    }
+    .block2Text{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 898px){
+    #block1Img1{
+        right: 0%;
+        top: 12%;
+    }
+    .block2Text{
+        right: 0%;
+    }
+    .block3Text1{
+        left: 0%;
+    }
+    #countriesFlgs{
+        margin-right: 0%;
+    }
+    .airplane{
+        left: 0%;
+    }
+    #block8{
+        margin-top: 30px;
+    }
+    .whats, .feice, .email{
+        margin: 3px;
+    }
+    #end{
+        height: 75px;
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 878px){
+    #fernanda{
+        display: none;
+    }
+    #lucas{
+        display: none;
+    }
+    #DepoimentBlock{
+        display: inline;
+    }
+    /* .TextofBlock7{
+        margin-top: 13px;
+    } */
+    #block7{
+        margin-top: 14px;
+    }
+    #heitor{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin: 20px; */
+    }
+    #miguel{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin: 20px; */
+    }
+    .block1{
+        display: none;
+    }
+  
+    .block1Text{
+        display: none;
+    }
+    
+    #block1Img1{
+        display: none;
+    }
+    /* #block2Img1{
+        z-index: -1;
+        position: relative;
+    }
+    .block2Text{
+        z-index: 2;
+    } */
+}
+
+@media only screen and (max-width: 878px){
+    #block2Img1{
+        display: none;
+    }
+    .block2Text{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .block3Text1{
+        display: none;
+    }
+    #countriesFlgs{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
