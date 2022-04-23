@@ -186,3 +186,25 @@
         float: none;
     }
 }
+
+@media only screen and (max-width: 790px){
+    .whats, .feice, .email{
+        display: grid;
+        grid-template-columns: 4;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .whats, .feice, .email{
+        font-family: cursive;
+        font-size: 30px;
+        height: 55px;
+        width: max-content;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin: 10px;
+    }
+    #end{
+        margin-top: 100px;
+    }
+}
